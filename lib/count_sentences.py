@@ -29,5 +29,5 @@ class MyString:
       value = self.value
       for punctuation in ["!","?"]:
         value = value.replace(punctuation, ".")
-      else:
-        return len([sentence for sentence in value.split(".") if sentence])
+      
+      return len([sentence for sentence in value.split(".") if sentence])
