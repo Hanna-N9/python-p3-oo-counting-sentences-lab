@@ -15,7 +15,7 @@ class MyString:
       print("The value must be a string.")
 
   def is_sentence(self):
-    return self._value.endswith(".")
+    return True if self._value.endswith(".") else False
 
   def is_question(self):
     return self._value.endswith("?")
