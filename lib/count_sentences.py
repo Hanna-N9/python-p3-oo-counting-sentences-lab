@@ -9,7 +9,7 @@ class MyString:
     return self._value
 
   @value.setter
-  def value(self, stringVal):
+  def set_value(self, stringVal):
     if isinstance(value, str):
       self._value = stringVal
     else:
