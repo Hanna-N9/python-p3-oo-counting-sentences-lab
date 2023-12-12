@@ -15,13 +15,13 @@ class MyString:
         print("The value must be a string.")
         
     def is_sentence(self):
-      return self._value.endswith(".") else
+      return self._value.endswith(".") 
   
     def is_question(self):
-      return self._value.endswith("?") else
+      return self._value.endswith("?") 
     
     def is_exclamation(self):
-      return self._value.endswith("!") else
+      return self._value.endswith("!") 
     
     def count_sentences(self):
       value = self.value
