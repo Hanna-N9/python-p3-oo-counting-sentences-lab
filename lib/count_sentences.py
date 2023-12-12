@@ -19,10 +19,10 @@ class MyString:
       return True if self._value.endswith(".") else False
   
     def is_question(self):
-      return True self._value.endswith("?") else False
+      return True if self._value.endswith("?") else False
     
     def is_exclamation(self):
-      return True self._value.endswith("!") else False
+      return True if self._value.endswith("!") else False
     
     def count_sentences(self):
       value = self.value
