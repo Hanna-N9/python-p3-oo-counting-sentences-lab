@@ -8,8 +8,7 @@ class MyString:
     def get_value(self):
       return self._value
   
-    @value.setter
-    def value(self, stringVal):
+    def set_value(self, stringVal):
       if isinstance(value, str):
         self._value = value
       else:
